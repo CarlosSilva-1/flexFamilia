@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flex Família</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/cabecalho.css">
+        <link rel="stylesheet" href="css/conteudo.css">
+        <link rel="stylesheet" href="css/cadastro.css">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <div class="container">
+                <img class="logo__cabecalho" src="img/logo-cabecalho.png" alt="Logo Flex Família">
+                <nav class="nav__cabecalho">
+                    <ul class="lista__cabecalho">
+                        <li class="itens__cabecalho"><a class="nav__cabecalho__link" href="#">Início</a></li>
+                        <li class="itens__cabecalho"><a class="nav__cabecalho__link" href="conteudo.html">Conteúdo</a></li>
+                        <li class="itens__cabecalho"><a class="nav__cabecalho__link" href="#">Quem Somos?</a></li>
+                        <li class="itens__cabecalho"><a class="nav__cabecalho__link" href="#">Depoimentos</a></li>
+                        <li class="itens__cabecalho"><a class="nav__cabecalho__link" href="cadastro.html">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="dados__pessoais">
+                <div class="cadastro">
+                    <img src="img/flex-familia-fundo-transparente.png" alt="">
+                    <form action="">
+                        <fieldset>
+                            <legend>Complete seu cadastro:</legend>
+                            <br>
+                            <div>
+                                <label for="nome">Nome</label>
+                                <input name="nome" id="nome" type="text" required>
+                                <span></span>
+                            </div>
+                            <div>
+                                <label for="sobrenome">Sobrenome</label>
+                                <input type="text">
+                                <span></span>
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input name="email" id="email" type="email" required>
+                                <span></span>
+                            </div>
+                        </fieldset>
+                        <button>Cadastrar</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>

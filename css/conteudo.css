@@ -1,0 +1,17 @@
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.video {
+    width: 700px;
+    height: 300px;
+    margin: 15px;
+}
+
+p{
+    display: block;
+    width: 700px;
+    margin:10px;
+}
